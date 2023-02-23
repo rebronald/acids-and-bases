@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000100001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="125" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00000100001" font="Open Sans" controllayout="npnxnanbsnfns00000100001" colorscheme="npnxnanbnsnfns00000100001" string_table="npnxnanbnsnfns00000100001" />
+    <layout name="pxabnsnfns00000100001" font="Open Sans" controllayout="pxabnsnfns00000100001" colorscheme="npnxnanbnsnfns00000100001" string_table="npnxnanbnsnfns00000100001" />
+    <layout name="npxnabnsnfns00000100001" font="Open Sans" controllayout="npxnabnsnfns00000100001" colorscheme="npnxnanbnsnfns00000100001" string_table="npnxnanbnsnfns00000100001" />
+    <layout name="npnxnanbnsnfns00000100001" font="Open Sans" controllayout="npnxnanbnsnfns00000100001" colorscheme="npnxnanbnsnfns00000100001" string_table="npnxnanbnsnfns00000100001" />
+    <layout name="pxabnsnfns00000100000" font="Open Sans" controllayout="pxabnsnfns00000100000" colorscheme="npnxnanbnsnfns00000100001" string_table="npnxnanbnsnfns00000100001" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="AtomsAndIons_1_AllAboutAtoms" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+          <option name="settings" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00000100001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000100001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00000100001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00000100001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000100000">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns00000100001">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0A8A4B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC3E398" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x242E46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x242E46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC3E398" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x058C4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x058C4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x058C4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2F0D8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2F0D8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2F0D8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x058C4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns00000100001">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="three_image_view_image">view image</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="togglezoom">Switch zoom modes</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6E8SZlJ3yA2" displaytext="submenu_all about atoms" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6E8SZlJ3yA2.65z5805LZjU" displaytext="Level2 menu_all about atoms" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5YgvYSrojlR" displaytext="SB1_menu_what is matter" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5YgvYSrojlR.5Y2JB4VqXiv" displaytext="SB1_Level 3_menu" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5nAmeEFF8jO" displaytext="SB1_About this section" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5nAmeEFF8jO.5WPyIWyeocf" displaytext="about_sb11" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6SfFDuJGcep" displaytext="SB1_Learn1_About matter" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6SfFDuJGcep.6ntnwgI4M6Z" displaytext="learn1_sb15" expand="false" type="slide" />
+            <slidelink slideid="_player.6SfFDuJGcep.5VzFzf0wNCT" displaytext="learn1_sb16" expand="false" type="slide" />
+            <slidelink slideid="_player.6SfFDuJGcep.6m1xcQmQBkx" displaytext="learn1_sb17" expand="false" type="slide" />
+            <slidelink slideid="_player.6SfFDuJGcep.5pVTyI5HHGh" displaytext="learn1_sb18" expand="false" type="slide" />
+            <slidelink slideid="_player.6SfFDuJGcep.6RUEQzWsMB8" displaytext="learn1_sb19" expand="false" type="slide" />
+            <slidelink slideid="_player.6SfFDuJGcep.5eqOW7bxusq" displaytext="learn1_sb20" expand="false" type="slide" />
+            <slidelink slideid="_player.6SfFDuJGcep.62KyFkGGQQa" displaytext="learn1_sb21" expand="false" type="slide" />
+            <slidelink slideid="_player.6SfFDuJGcep.5gggwtX7V9X" displaytext="learn1_sb22" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.65d7GmwN55C" displaytext="SB1_Learn2_Particle theory" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.65d7GmwN55C.6Ks58IDs5bN" displaytext="learn2_sb25" expand="false" type="slide" />
+            <slidelink slideid="_player.65d7GmwN55C.5bS9BOO5w4V" displaytext="learn2_sb26" expand="false" type="slide" />
+            <slidelink slideid="_player.65d7GmwN55C.5jAnfgQUirm" displaytext="learn1_sb27" expand="false" type="slide" />
+            <slidelink slideid="_player.65d7GmwN55C.5wFPKJJhveR" displaytext="learn1_sb29" expand="false" type="slide" />
+            <slidelink slideid="_player.65d7GmwN55C.5lUZhuy7Edr" displaytext="learn1_sb30" expand="false" type="slide" />
+            <slidelink slideid="_player.65d7GmwN55C.6JJH8xkETsb" displaytext="learn2_sb31" expand="false" type="slide" />
+            <slidelink slideid="_player.65d7GmwN55C.6NcjIdDQbXp" displaytext="learn2_sb32" expand="false" type="slide" />
+            <slidelink slideid="_player.65d7GmwN55C.6ITfZ94GBes" displaytext="learn2_sb33" expand="false" type="slide" />
+            <slidelink slideid="_player.65d7GmwN55C.5dUUtzS1GmT" displaytext="learn2_sb34" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5nZkd0R7E3P" displaytext="SB1_Activities" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5nZkd0R7E3P.61HOn5v4SKH" displaytext="activity_36" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6BqBeZsRcVC" displaytext="SB1_Quiz" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6BqBeZsRcVC.5kyvuXfopBl" displaytext="sb1_Quiz intro" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqBeZsRcVC.5avlwGAgwR7" displaytext="Q2_Pick One" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqBeZsRcVC.6VRlqdbW6JI" displaytext="Q3_Pick One" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqBeZsRcVC.5vQBT10Td7J" displaytext="Q1_Pick Many" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqBeZsRcVC.5krWIx8gQOX" displaytext="Q4_Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqBeZsRcVC.5pUExehQGvk" displaytext="Q5_Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqBeZsRcVC.5duQVTqTWJe" displaytext="Q6_Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqBeZsRcVC.5mPNuGEqpft" displaytext="Q7_Pick One" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqBeZsRcVC.5zszmbzv5nO" displaytext="Q8_Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6BqBeZsRcVC.6SHLOOflKBd" displaytext="Q9_Pick One" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6oJOlFBlJlh" displaytext="SB1_Real world chemistry" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6oJOlFBlJlh.6GO3ky4eZRN" displaytext="RealWorld_sb50" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.63xk2BECRjA" displaytext="SB1_Watch_What is matter?" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.63xk2BECRjA.6q0qBKYqMRc" displaytext="watch_sb13" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6ezoj32swWE" displaytext="SB1_Game" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6ezoj32swWE.6LXikVDDpwN" displaytext="game intro - ROUND 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6ezoj32swWE.5Zu1WSien2m" displaytext="R1_comp deal 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6ezoj32swWE.6BbXxwX7oGD" displaytext="R1_comp deal 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6ezoj32swWE.6QST12nMdUS" displaytext="R1_comp deal 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6ezoj32swWE.5djfv5lObH4" displaytext="ROUND 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6ezoj32swWE.6pcE6kLLzSb" displaytext="R2_comp deal 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6ezoj32swWE.6WnPsCPiUqz" displaytext="R2_comp deal 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6ezoj32swWE.6F61qATZmws" displaytext="R3_comp deal 3" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5q439XnuXJw" displaytext="SB2_menu_atom structure" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5q439XnuXJw.6K3nbNlFUON" displaytext="SB2_Level3_menu" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6RUynslIOzN" displaytext="SB2_About this section" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6RUynslIOzN.5dmdWHGGVQJ" displaytext="SB2_about_sb7" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6Jcn7ArMxWd" displaytext="SB2_Learn1_about atoms" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Jcn7ArMxWd.6UV7VzvDTQr" displaytext="SB2_learn1_sb11" expand="false" type="slide" />
+            <slidelink slideid="_player.6Jcn7ArMxWd.5ZOaHj3mP3q" displaytext="SB2_learn1_sb12" expand="false" type="slide" />
+            <slidelink slideid="_player.6Jcn7ArMxWd.5ZoCNCjEsYl" displaytext="SB2_learn1_sb13" expand="false" type="slide" />
+            <slidelink slideid="_player.6Jcn7ArMxWd.63xEyVqsmaj" displaytext="SB2_learn1_sb14" expand="false" type="slide" />
+            <slidelink slideid="_player.6Jcn7ArMxWd.5hPmtBDZ3tN" displaytext="SB2_learn1_sb15 step1" expand="false" type="slide" />
+            <slidelink slideid="_player.6Jcn7ArMxWd.5bOoLNBTw07" displaytext="SB2_learn1_sb15 step 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6Jcn7ArMxWd.6PwTju9lQmk" displaytext="SB2_learn1_sb15 step 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6Jcn7ArMxWd.5mpuBo4B2eD" displaytext="SB2_learn1_sb16" expand="false" type="slide" />
+            <slidelink slideid="_player.6Jcn7ArMxWd.5Y7hw7IV8dD" displaytext="SB2_learn1_sb17" expand="false" type="slide" />
+            <slidelink slideid="_player.6Jcn7ArMxWd.5ZAokyLpOjw" displaytext="SB2_learn1_sb18" expand="false" type="slide" />
+            <slidelink slideid="_player.6Jcn7ArMxWd.67mGybZPo5e" displaytext="SB2_learn1_sb19" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5m7tAGcH07v" displaytext="SB2_Learn2_atomic number" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5m7tAGcH07v.5l3HhdF04fr" displaytext="SB2_learn2_sb30" expand="false" type="slide" />
+            <slidelink slideid="_player.5m7tAGcH07v.6fa8AeENMwx" displaytext="SB2_learn2_sb31" expand="false" type="slide" />
+            <slidelink slideid="_player.5m7tAGcH07v.6TyhhHpQ3Gs" displaytext="SB2_learn2_sb32" expand="false" type="slide" />
+            <slidelink slideid="_player.5m7tAGcH07v.5zU0pxAhjVF" displaytext="SB2_learn2_sb33" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6I5rM4ASIPM" displaytext="SB2_Activities" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6I5rM4ASIPM.5WbaVKEoGWH" displaytext="SB2_activity_sb41" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5XD8Rj3Z6Ed" displaytext="SB2_Quiz1_drawing atoms" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5XD8Rj3Z6Ed.5b3nG6FdViJ" displaytext="Quiz intro_sb22" expand="false" type="slide" />
+            <slidelink slideid="_player.5XD8Rj3Z6Ed.5hOESnhHkoL" displaytext="Q1_Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.5XD8Rj3Z6Ed.5ttSYp4zzCY" displaytext="Q2_Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.5XD8Rj3Z6Ed.5l6NcpeWFi1" displaytext="Q3_Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.5XD8Rj3Z6Ed.65YOE3fw2ay" displaytext="Q4_Pick One" expand="false" type="slide" />
+            <slidelink slideid="_player.5XD8Rj3Z6Ed.5zum6HynDv3" displaytext="Q5_Pick One" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6Vc16r1Gu4j" displaytext="SB2_Real world chemistry" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Vc16r1Gu4j.5Vi6x5HRBse" displaytext="SB2_RealWorld_sb51" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6JAGrLkj9LT" displaytext="SB2_Watch" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6JAGrLkj9LT.6dnGxTp5pu3" displaytext="SB2_watch_sb9" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6VXYD3e5dA6" displaytext="SB2_Game" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6VXYD3e5dA6.5oXiJYiOoZZ" displaytext="game intro - ROUND 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6VXYD3e5dA6.6qLt0BSgTqB" displaytext="R1_comp deal 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6VXYD3e5dA6.6CpGDcIREi2" displaytext="R1_comp deal 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6VXYD3e5dA6.67OnWZh8yMk" displaytext="R1_comp deal 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6VXYD3e5dA6.6hawq27hPED" displaytext="R1_comp deal 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6VXYD3e5dA6.5Vbw8zczmqo" displaytext="R1_comp deal 5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5j9kDuBcrWB" displaytext="SB2_Learn3_mass number " expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5j9kDuBcrWB.6gq5xVUkQa1" displaytext="SB2_Learn3_sb35" expand="false" type="slide" />
+            <slidelink slideid="_player.5j9kDuBcrWB.6NSkEIfnQH9" displaytext="SB2_learn2_sb36" expand="false" type="slide" />
+            <slidelink slideid="_player.5j9kDuBcrWB.5nLw7Xakoch" displaytext="SB2_learn2_sb37" expand="false" type="slide" />
+            <slidelink slideid="_player.5j9kDuBcrWB.6KzvE94BTE8" displaytext="SB2_learn2_sb39" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5afsj70vsCa" displaytext="SB2_Quiz2_atom structure" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5afsj70vsCa.64RSvbUuMIc" displaytext="SB2_Quiz intro_sb43" expand="false" type="slide" />
+            <slidelink slideid="_player.5afsj70vsCa.6WXRoS7kaUb" displaytext="SB2_Q1_pick one_sb44" expand="false" type="slide" />
+            <slidelink slideid="_player.5afsj70vsCa.6OTEl8l8A6E" displaytext="SB2_Q2_pick one_sb45" expand="false" type="slide" />
+            <slidelink slideid="_player.5afsj70vsCa.5VrAoOqMqj0" displaytext="SB2_Q3_Pick One_sb46" expand="false" type="slide" />
+            <slidelink slideid="_player.5afsj70vsCa.6E8OVS8xDv7" displaytext="SB2_Q4_Pick One_sb47" expand="false" type="slide" />
+            <slidelink slideid="_player.5afsj70vsCa.60xYiyUzn32" displaytext="SB2_Q5_Pick One_sb48" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5YfjwB3X0fq" displaytext="SB3_level 3_the periodic table" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5YfjwB3X0fq.6CA0i5QvUCV" displaytext="SB3_Level3_menu" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6cjhtuoFX6E" displaytext="SB3_About this section" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6cjhtuoFX6E.5yfVfDA8aSN" displaytext="SB3_about_sb_7" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6hvYWsyyKee" displaytext="SB3_Learn1: Interactive periodic table" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6hvYWsyyKee.5qvEC27Os9F" displaytext="SB3_Learn1_sb9" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6Sps1RYHY5R" displaytext="SB3_The periodic table" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Sps1RYHY5R.5nwM487VYf6" displaytext="SB3_Watch_sb24" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6flRUR9SuiZ" displaytext="SB3_Learn 2: Key facts" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6flRUR9SuiZ.6EwQ3p6KW6Z" displaytext="SB3_keyfacts_sb 26" expand="false" type="slide" />
+            <slidelink slideid="_player.6flRUR9SuiZ.6UZMbAYyw0b" displaytext="SB3_sb 27" expand="false" type="slide" />
+            <slidelink slideid="_player.6flRUR9SuiZ.68Z95LDp5WI" displaytext="SB3_sb 28" expand="false" type="slide" />
+            <slidelink slideid="_player.6flRUR9SuiZ.67F49T87oVC" displaytext="SB3_sb 29" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5nr74nEgOlw" displaytext="SB3_Activity" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5nr74nEgOlw.5d9R9tEc5fk" displaytext="SB3_activity_sb31" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5duksAOp8Q1" displaytext="SB3_Quiz" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5duksAOp8Q1.6GDsbZB7Epg" displaytext="SB3_Quiz intro" expand="false" type="slide" />
+            <slidelink slideid="_player.5duksAOp8Q1.6jwSyZlS53E" displaytext="SB3_Q1_Pick One" expand="false" type="slide" />
+            <slidelink slideid="_player.5duksAOp8Q1.6NB78IHehmq" displaytext="SB3_Q2_Pick Many" expand="false" type="slide" />
+            <slidelink slideid="_player.5duksAOp8Q1.6EDrOy2ArJd" displaytext="SB3_Q3_Pick One" expand="false" type="slide" />
+            <slidelink slideid="_player.5duksAOp8Q1.6N9MFJpX7H8" displaytext="SB3_Q4_Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.5duksAOp8Q1.6OGXf2tXNjW" displaytext="SB3_Q5_Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.5duksAOp8Q1.5mn5meu2ppT" displaytext="SB3_Q6_Pick One" expand="false" type="slide" />
+            <slidelink slideid="_player.5duksAOp8Q1.5a7QFU2sVQ0" displaytext="SB3_Q7_Drag and Drop 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5duksAOp8Q1.6Y6dOBu8CMx" displaytext="SB3_Q8_Spot the element" expand="false" type="slide" />
+            <slidelink slideid="_player.5duksAOp8Q1.5iaDMX2rkLK" displaytext="SB3_Q9_Spot the element" expand="false" type="slide" />
+            <slidelink slideid="_player.5duksAOp8Q1.5tvxt298BHC" displaytext="SB3_Q10_Spot the element" expand="false" type="slide" />
+            <slidelink slideid="_player.5duksAOp8Q1.6MR2BF54nR6" displaytext="SB3_Q11_Spot the element" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6fWjzUrqppz" displaytext="SB3_Real world chemistry" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6fWjzUrqppz.5rqFnCMPnVw" displaytext="SB3_RealWorld_sb47" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5rdiAVbtSxc" displaytext="SB3_The elements song" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5rdiAVbtSxc.5XoRn8yTE7l" displaytext="SB3_Watch_elements" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.612ONpPZ30Q" displaytext="SB3_Game" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.612ONpPZ30Q.6Pd3hIn33XB" displaytext="Round 1 - Instructions" expand="false" type="slide" />
+            <slidelink slideid="_player.612ONpPZ30Q.5W7cAadOhYD" displaytext="Draw from Question Bank Round 1" expand="false" type="slide" />
+            <slidelink slideid="_player.612ONpPZ30Q.6Ygfku4FKke" displaytext="Round 2 - Instructions" expand="false" type="slide" />
+            <slidelink slideid="_player.612ONpPZ30Q.6XtjJEPm87Q" displaytext="Draw from Round 2 - Question Bank" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6KZyHCeVRNN" displaytext="SB4_menu_orbital" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6KZyHCeVRNN.5bj1rQqCUTy" displaytext="SB4_Level3_menu" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6OpDT3ZJTOy" displaytext="SB4_About this section" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6OpDT3ZJTOy.6KGdLEDib2d" displaytext="SB4_about_sb11" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6ESsUQ7UD3j" displaytext="SB1_Learn4_Electron_configuration" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6ESsUQ7UD3j.5yUEaq1ivYr" displaytext="SB4_learn1_sb11" expand="false" type="slide" />
+            <slidelink slideid="_player.6ESsUQ7UD3j.65Xzc92ymj5" displaytext="SB4_learn1_sb12_v2" expand="false" type="slide" />
+            <slidelink slideid="_player.6ESsUQ7UD3j.5dO8TJrtVKt" displaytext="SB4_learn1_sb13" expand="false" type="slide" />
+            <slidelink slideid="_player.6ESsUQ7UD3j.5zMijzzPbC3" displaytext="SB4_learn1_sb14-15" expand="false" type="slide" />
+            <slidelink slideid="_player.6ESsUQ7UD3j.6fX7eABkeQH" displaytext="SB4_learn1_sb16-17" expand="false" type="slide" />
+            <slidelink slideid="_player.6ESsUQ7UD3j.5VlSROVUxHv" displaytext="SB4_learn1_sb18-19" expand="false" type="slide" />
+            <slidelink slideid="_player.6ESsUQ7UD3j.6ppj3FEupHo" displaytext="SB4_learn1_sb11" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5sAqiXmJHVl" displaytext="SB4_Real world chemistry" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5sAqiXmJHVl.5tpBCNbEShn" displaytext="RealWorld_sb50" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6N4W1thzRsA" displaytext="SB4_Orbital_electrons" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6N4W1thzRsA.6Z63uVQ2Xtz" displaytext="SB4_watch_sb13" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5tS7jkQM358" displaytext="SB4_Game" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5tS7jkQM358.6CWZXh6lUMz" displaytext="game intro" expand="false" type="slide" />
+            <slidelink slideid="_player.5tS7jkQM358.6IdjzLIhZDG" displaytext="Draw from 11-7-20 quesiton bank" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="story_content/external_files/Chemistry resources.pdf" image="story_content/6c0HMfjWc1T.png" title="Table of ions and Periodic table" />
+    </resources>
+  </resource_data>
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
